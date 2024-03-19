@@ -1,0 +1,566 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+#navBar {
+  background: black;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 3%;
+}
+.logo img {
+  height: 80px;
+}
+.login {
+  margin-right: 3%;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  margin: 10px 20px;
+}
+.login a {
+  background-color: rgb(227, 5, 42);
+  text-decoration: none;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 2px;
+}
+
+
+
+/*-----------------main--------------------------------*/
+video {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+}
+.main-content-title {
+  padding: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+.title h5 {
+  color: rgb(227, 5, 42);
+  font-size: 20px;
+  font-weight: 500;
+}
+.title h3 {
+  font-size: 26px;
+}
+.main-content-link a {
+  text-decoration: none;
+  color: white;
+  padding: 12px 8px;
+  background-color: rgb(227, 5, 42);
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.wrapper-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  padding: 3%;
+}
+
+.wrapper-image {
+  height: 243px;
+  width: 288px;
+  background: rgba(250, 246, 246, 0.717);
+}
+.wrapper-image img {
+  width: 100%;
+  height: 75%;
+}
+.titleM p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5%;
+  color: black;
+  text-transform: uppercase;
+}
+.posterimage {
+  width: 100%;
+  height: 90vh;
+  background-image: url("/Image/kabir.png");
+  background-size: cover;
+  background-position: center;
+}
+.posterimage img {
+  height: 90vh;
+  width: 100%;
+}
+.poster-info {
+  padding-top: 15%;
+  color: white;
+  float: right;
+  padding-right: 3%;
+  line-height: 2rem;
+}
+.poster-info h5 {
+  color: rgb(227, 5, 42);
+  font-size: 18px;
+  font-weight: 400;
+}
+.poster-info h2 {
+  font-size: 33px;
+  font-weight: 500;
+}
+.poster-info h4 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.poster-info p {
+  font-size: 16px;
+}
+.posterFule {
+  height: 80vh;
+  width: 100%;
+  background: rgb(227, 5, 42);
+}
+.fulecontent {
+  height: 80vh;
+  width: 93%;
+  margin: 0 3%;
+  background: white;
+}
+
+.info-content {
+  max-width: 640px;
+  padding: 4%;
+}
+.info-content img {
+  height: 100%;
+  width: 100%;
+}
+.fule-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 20px;
+}
+
+.info-content h3 {
+  color: rgb(227, 5, 42);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.info-content h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.info-content h5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.info-content p {
+  margin-top: 3%;
+  line-height: 2rem;
+}
+.btn1 {
+  margin-top: 8%;
+}
+.btn1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  background: rgb(227, 5, 42);
+  padding: 12px 14px;
+  border-radius: 3px;
+}
+
+.info-number1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.poster-image {
+  background-image: url("Image/poster2.png");
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+.poster-content {
+  color: white;
+  padding-top: 20%;
+  text-align: center;
+}
+.poster-content h3 {
+  color: rgb(227, 5, 42);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.btn2 {
+  margin-top: 2%;
+}
+.btn2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  background: rgb(227, 5, 42);
+  padding: 12px 14px;
+  border-radius: 3px;
+}
+.company-info {
+  text-align: center;
+  margin-top: 3%;
+}
+.company-info h3 {
+  color: rgb(227, 5, 42);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.company-logo {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.company-image {
+  padding: 3%;
+}
+.company-image img {
+  height: 130px;
+}
+.poster3 img {
+  height: 90vh;
+  width: 100%;
+}
+.icon2 {
+  color: rgb(227, 5, 42);
+}
+.prsee-realse {
+  background: linear-gradient(rgb(77, 27, 27), rgb(18, 11, 32));
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+.prsee-content {
+  padding-top: 5%;
+  text-align: center;
+  color: white;
+}
+.prsee-content h4 {
+  color: rgb(227, 5, 42);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.press-image {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+  padding: 3%;
+}
+.press-content {
+  height: 265px;
+  width: 280px;
+  position: relative;
+}
+.press-content img {
+  height: 100%;
+  width: 100%;
+  transition: transform 0.5s;
+}
+.press-button {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.153);
+}
+.press-button a {
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  text-align: center;
+  transition: 0.2s;
+}
+.press-button:hover {
+  cursor: pointer;
+  background-color: rgb(227, 5, 42);
+}
+.press-content:hover img {
+  transform: scale(1.1);
+}
+.fitnessF {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+}
+
+.content2 {
+  height: 80vh;
+  width: 290px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.content2 img {
+  height: 100%;
+  width: 60%;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.content2:hover img {
+  transform: scale(1.1);
+}
+.content2 img:hover {
+  width: 100%;
+  text-align: center;
+}
+.poster-content1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 0;
+  background: linear-gradient(rgb(77, 27, 27), black);
+}
+.info-left {
+  background: linear-gradient(rgb(77, 27, 27), black);
+  background-color: black;
+  color: white;
+  padding: 25% 2% 2% 4%;
+}
+.info-left h3 {
+  color: rgb(227, 5, 42);
+  font-weight: 400;
+}
+.info-left h1 {
+  font-size: 2rem;
+}
+.info img {
+  height: 100%;
+  width: 100%;
+}
+.logo-form {
+  padding: 5%;
+  position:absolute;
+  
+}
+.form-content{
+  background: linear-gradient(rgb(77, 27, 27), rgb(18, 11, 32));
+  height: 70vh;
+  width: 75%;
+  max-width: 500px;
+  border-radius: 10px;
+           
+}
+
+
+/*.form-content {
+  color: white;
+  text-align: center;
+  background-image: url("/Image/OIP.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}*/
+.left-content{
+  text-align: center;
+  color: white;
+}
+.left-content img{
+  height: 132px;
+  width: 194px;
+  
+}
+.left-content h3 {
+  color: rgb(227, 5, 42);
+  font-size: 19px;
+  font-weight: 500;
+  
+  text-transform: uppercase;
+}
+.left-content h1 {
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+.left-content p {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+.left-content p span {
+  color: rgb(227, 5, 42);
+}
+form input {
+  display: flex;
+  line-height: 2rem;
+  outline: none;
+  height: 40px;
+  width: 280px;
+  max-width: 220px;
+  background: transparent;
+  color: white;
+  margin: 3rem 2rem 0 2rem;
+  border: 1px solid white;
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 5px;
+}
+input ::placeholder{
+  color: white;
+}
+.left-content span a{
+  text-decoration: none;
+  color: rgb(227, 5, 42);
+  font-size: 11px;
+
+}
+.login-btn{
+  margin-top: 5%;
+  text-align: center;
+  margin-left: 8%;
+}
+
+.login-btn a {
+  align-items: center;
+  font-size: 12px;
+  float: left;
+  margin-bottom: 2%;
+  margin-left: 6%;
+  text-decoration: none;
+  background-color: rgb(227, 5, 42);
+  color: white;
+  height: 2.4rem;
+  width: 14rem;
+}
+
+.right-content {
+  width: 300px;
+  height: 300px;
+}
+
+/*-----------footer-------------------------*/
+footer {
+  width: 100%;
+  background: black;
+}
+
+.footer-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  color: white;
+}
+.footer-image {
+  padding: 3%;
+}
+
+.footer-image img {
+  height: 220px;
+}
+.footer-image ul li {
+  list-style: none;
+  display: inline-block;
+}
+.footer-image ul li a {
+  color: white;
+  font-size: 26px;
+  text-decoration: none;
+  transition: 0.3s;
+  margin: 0 10px;
+  margin-left: 10px;
+}
+
+.info {
+  display: flex;
+  margin: 20px;
+}
+.navigation {
+  display: inline-block;
+  margin: 15px;
+}
+.navigation h3 {
+  color: rgb(227, 5, 42);
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.navigation a {
+  margin-top: 10px;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+/*-----------Responsive-------------------------*/
+nav .fas {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  nav .fas {
+    display: block;
+    font-size: 24px;
+    color: rgb(227, 5, 42);
+  }
+  nav ul {
+    background: black;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 40px;
+    z-index: 2;
+    transition: right 0.3s;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+    font-size: 17px;
+  }
+  nav ul .fas {
+    position: absolute;
+    top: 30px;
+    left: 167px;
+    cursor: pointer;
+  }
+  .fLogo img {
+    height: 120px;
+  }
+  footer ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .poster-image {
+    background-image: url("Image/poster2.png");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .posterimage {
+    width: 100%;
+    height: 90vh;
+    background-image: url("/Image/kabir.png");
+    background-size: cover;
+    background-position: center;
+  }
+}
